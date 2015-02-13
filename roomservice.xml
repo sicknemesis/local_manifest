@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="gitorious" fetch="git://gitorious.org/" />
+<remote  name="gh" fetch="https://github.com/" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+<!-- Toolchains -->
+<project name="kecinzer/sm-arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="gh" revision="master" />
+<project name="kecinzer/sm-arm-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="gh" revision="master" />
+<project name="kecinzer/sm-arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="gh" revision="master" />
+<!-- Blobs -->
+<project name="sicknemesis/aosp_vendor" path="vendor" remote="gh" revision="master" />
+</manifest>
